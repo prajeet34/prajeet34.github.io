@@ -26,19 +26,6 @@ html
   background-color: rgb(22,22,22);
   overflow: hidden;
 }
-part1::before
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 257px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: url(wave.png);
-}
-
 .part1 ul
 {
     margin: 0;
@@ -116,7 +103,7 @@ section
 
 .part1 h1
 {
-    font-size: 3.1em !important;
+    font-size: 3.1em;
     font-weight: bold;
     color: white;
     letter-spacing:1.3px;
@@ -139,37 +126,37 @@ section
 nav
 {
     
-    list-style-type: none !important;
-    z-index: 1 !important;
-    position: fixed !important;
-    justify-content: space-around !important;
-    padding: 1px 80px !important;
+    list-style-type: none;
+    z-index: 1;
+    position: fixed;
+    justify-content: space-around;
+    padding: 1px 90px;
     background-color: rgb(21,21,21);
-    width: 100% !important;
-    opacity: 0.9 !important;
-    
+    width: 100%;
+    opacity: 0.9;
 }
 nav ul li
 {
-    list-style-type: none !important;
-    position: relative !important;
- 
+    list-style-type: none;
+    position: relative; 
+    
 }
 nav ul
 {
-    display: flex !important;
-    position: relative !important;
+    display: flex;
+    position: relative;
     float: right;
+    margin-right: 100px;
 }
 
 nav ul li a
 {
     color: rgb(255, 255, 255);
-    position: relative !important;
-    display: inline-block !important;
-    text-decoration: none !important;
-    margin: 18px 12px !important;
-    font-size: 16.4px !important;   
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin: 22px 10px;
+    font-size: 16.4px;   
 }
 #image
 {
@@ -187,7 +174,7 @@ img
 .logo
 {
     float: left;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 nav ul li a:hover
@@ -200,9 +187,9 @@ nav ul li a:hover
 
 .about_heading h1
 {
-    font-size: 2.6em !important;
+    font-size: 2.6em;
     text-align: center;
-    letter-spacing: 1.5px !important;
+    letter-spacing: 1.5px;
     color: #000;
 }
 .content
@@ -226,14 +213,14 @@ nav ul li a:hover
 .skills .skills_contents
 {
     display: flex;
-    justify-content: center !important;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .skills .skills_contents .skillss
 {
-    padding: 29px 22px !important;
+    padding: 30px 20px;
     background: rgb(59, 59, 59);
     color: rgb(239, 255, 255);
     max-width: 340px;
@@ -258,7 +245,6 @@ nav ul li a:hover
 {
     color: #fd2af3;
     letter-spacing: 1.5px;
-    font-size: 1.65em;
 }
 
 .skillss p
