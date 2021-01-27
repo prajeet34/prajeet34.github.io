@@ -6,26 +6,53 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/mypic.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
 
 <body>
-    <nav>
-        <a class="logo">
-            <img src="mypic.jpg" id="image">
-        </a>
-        <div class="navbar"></div>
-        <ul>
-            <li><a href="#home"><i class="fal fa-home-alt"></i>Home</a></li>
-            <li><a href="#about"><i class="fal fa-user"></i>About</a></li>
-            <li><a href="#skills"><i class="fas fa-laptop-code"></i>Skills</a></li>
-            <li><a href="#project"><i class="far fa-file-user"></i> Resume</a></li>
-            <li><a href="#social">#Socials</a></li>
-            <li><a href="#contact"><i class="fas fa-mobile-alt"></i> Contact</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src=mypic.jpg></a>
+          <button class="navbar-toggler" type="button" onclick="ham();" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <script type="text/javascript">
+            function ham(){
+                document.querySelector('.navbar-toggler').classList.toggle('ok');
+                document.querySelector('.navbar-nav').classList.toggle('ok');
+            }
+        </script>
+          
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" onclick="ham();"> <i class="far fa-home-alt"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" onclick="ham();"><i class="far fa-user-alt"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" onclick="ham();"><i class="fas fa-laptop-code"></i> Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project" onclick="ham();"><i class="far fa-file-user"></i> Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#social" onclick="ham();">#Socials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" onclick="ham();"><i class="fas fa-mobile-alt"></i> Contact</a>
+              </li>
+              
+            </ul>
+         
+        </div>
     </nav>
+
     <section class="part1" id="home">
         <div class="home">
-            <h1><i>Hii</i>, I am <br><span>Prajeet Mukherjee.</span></h1>
+            <h1><i>Hii</i>, This is <br><span>Prajeet Mukherjee.</span></h1>
             
             <br>
             
@@ -50,14 +77,15 @@
     </section>
     <section class="about" id="about">
         <div class="about_heading">
-            <h1>AbOuT <i class="fas fa-user"></i></h1>
+           <h1>AbOuT <i class="fas fa-user-graduate"></i></h1>
 
         </div>
         <div class="content">
-            <i class="fas fa-quote-left" id="quote_left"></i> I am a front end web developer who uses <b>HTML CSS BOOTSTRAP and PHP</b> to build some decent web pages. I have done my pre-boards and boards from <i><b>Nava-Nalanda</b></i> and now pursuaing B.tech in Electronics and Telecommunication Engineering(ETC) from <b>KIIT University, Bhubaneshwar.</b> Along with these I can develop dynamic office dashboards using <i>Excel Automation</i> and Design <b>CISCO Lan Networks</b>. Lastly thanks for visiting my Portfolio site :) <i class="fas fa-quote-right" id="quote_right"></i>
+           <p><i class="fas fa-quote-left" id="quote_left"></i> I am a front end web developer who uses <b>HTML CSS BOOTSTRAP and PHP</b> to build some decent web pages. I have done my pre-boards and boards from <i><b>Nava-Nalanda</b></i> and now pursuaing B.tech in Electronics and communication Engineering from <b>KIIT University, Bhubaneshwar.</b> Along with these I can develop dynamic office dashboards using <i>Excel Automation</i> and Design <b>CISCO Lan Networks</b>. Lastly thanks for visiting my Portfolio site :) <i class="fas fa-quote-right" id="quote_right"></i></p>
+            
         </div>
         <div class="about_image">
-            <img src="about.jpg">
+            <img src="mypic.jpg"  id="mypic">
         </div>
         
     </section>
@@ -77,26 +105,26 @@
                 <img src="dev.png">
                 <h1>Web Design</h1>
                 <p>Design of Websites using <b>HTML CSS & BOOTSTRAP</b> and make those pages responsive for using through various platforms.</p>
-                <a href="#" class="button">know more</a>
+                <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="button">know more</a>
             </div>
             <div class="skillss">
                 <img src="c.png">
                 <h1>C-Prog</h1>
                 <p>Fundamentals of C and Python. Using them implementation of Data Structure and Algorithms.</p>
-                <a href="#" class="button1">know more</a>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="button1">know more</a>
             </div>        
             <div class="skillss">
                 <img src="excel.png">
                 <h1>Excel Automation</h1>
-                <p>Creating Multi Sale DASHBOARDS using Advanced Microsoft Excel through which user can get the exact data through simply running some macros & slicers. Got certified from <b>Internship Studio.</b></p>
-                <a href="#" class="button">know more</a>
+                <p>Creating Multi Sale DASHBOARDS using Advanced Microsoft Excel through which user can get the exact data. Got certified from <b>Internship Studio.</b></p>
+                <a href="https://www.google.com/search?q=excel&oq=excel&aqs=chrome..69i57j69i59l3j69i60l3.1360j0j4&sourceid=chrome&ie=UTF-8" target="_blank" class="button">know more</a>
             </div>
 
             <div class="skillss">
                 <img src="cisco.png" class="image">
                 <h1>Cisco Packet Tracing</h1>
                  <p>Designing basic network of LAN or WAN based model of Network for a Office or Home by using <b>Cisco Packet Tracer</b>. Fundamentals of Networking. </p>
-                 <a href="#" class="button">know more</a>
+                 <a href="https://en.wikipedia.org/wiki/Packet_Tracer" class="button" target="_blank" class="button">know more</a>
             </div>
         </div>
 
@@ -126,7 +154,7 @@
         <div class="skills_contents" id="link_contents">
             <div class="skillss" id="link">
                 
-                <a href="https://www.facebook.com/prajeet.mukherjee.7/" target="_blank"><img src="face.png"></a>
+                <a href="https://www.facebook.com/prajeet.mukherjee.7/" target="_blank" class="public"><img src="face.png"></a>
             </div>
             <div class="skillss" id="link">
                 
@@ -150,12 +178,12 @@
 
     <section class="footer" id="contact">
         <div class="footer_head">
-            <h2>ConTact Me <i class="fas fa-mobile-alt"></i></h2>
+            <h2>ConTact Me <i class="far fa-mobile-android"></i></h2>
 
         </div>
         <div class="footer_body">
             <div class="details">
-                <h3>Details</h3>
+                <h3>Details <i class="far fa-info-square"></i></h3>
                 <div class="footer_details">
                     <div class="info">
                         <div class="icon1">
@@ -188,16 +216,22 @@
                 </div>
             </div>
             <div class="form1">
-                <form method="POST">
-                    <h3>Any suggestions :)</h3>
+                <form>
+                    <h3>Comment Down <i class="far fa-pencil"></i></h3>
                     <input type="text" name="namecol" placeholder="Your Name" required>
                     <textarea rows="10" placeholder="Your Comment" name="comment" required></textarea>
-                    <input type="submit" value="SEND" name="submit">
+                    <a><input type="submit" value="SEND" name="submit"></a>
                     
 
                 </form>
             </div>
         </div>
+
+        <div class="col-xs-7">
+            <p class="copy">&copy; WebPage Design by Prajeet.</p>
+        </div>
     </section>
+    
+
 </body>
 </html>
