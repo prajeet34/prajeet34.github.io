@@ -1,1 +1,237 @@
-Site
+<html>
+    <head>
+    <title>Prajeet's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=450, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/mypic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src=mypic.jpg></a>
+          <button class="navbar-toggler" type="button" onclick="ham();" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <script type="text/javascript">
+            function ham(){
+                document.querySelector('.navbar-toggler').classList.toggle('ok');
+                document.querySelector('.navbar-nav').classList.toggle('ok');
+            }
+        </script>
+          
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" onclick="ham();"> <i class="far fa-home-alt"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" onclick="ham();"><i class="far fa-user-alt"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills" onclick="ham();"><i class="fas fa-laptop-code"></i> Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project" onclick="ham();"><i class="far fa-file-user"></i> Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#social" onclick="ham();">#Socials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" onclick="ham();"><i class="fas fa-mobile-alt"></i> Contact</a>
+              </li>
+              
+            </ul>
+         
+        </div>
+    </nav>
+
+    <section class="part1" id="home">
+        <div class="home">
+            <h1><i>Hii</i>, myself <br><span>Prajeet Mukherjee.</span></h1>
+            
+            <br>
+            
+            <h3> Full Stack</h3>
+            <ul>
+                <li>W</li>
+                <li>e</li>
+                <li>b</li>
+                <li>-</li>
+                <li>D</li>
+                <li>e</li>
+                <li>v</li>
+                <li>e</li>
+                <li>l</li>
+                <li>o</li>
+                <li>p</li>
+                <li>e</li>
+                <li>r.</li>
+            </ul>
+            
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about_heading">
+           <h1>Portfolio <i class="fas fa-user-graduate"></i></h1>
+
+        </div>
+        <div class="content">
+           <p><i class="fas fa-quote-left" id="quote_left"></i> I am a front end web developer who uses <b>HTML CSS BOOTSTRAP and PHP</b> to build some decent web pages. I have done my pre-boards and boards from <i><b>Nava-Nalanda</b></i> and now pursuaing B.tech in Electronics and communication Engineering from <b>KIIT University, Bhubaneshwar.</b> Along with these I can develop dynamic office dashboards using <i>Excel Automation</i> and Design <b>CISCO Lan Networks</b>. Lastly thanks for visiting my Portfolio site :) <i class="fas fa-quote-right" id="quote_right"></i></p>
+            
+        </div>
+        <div class="about_image">
+            <img src="mypic.jpg"  id="mypic">
+        </div>
+        
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills_heading">
+            <h1>Skills <i class="far fa-lightbulb-on"></i></h1>
+        </div>
+        <div class="skills_contents">
+            <div class="skillss">
+                <img src="design.png">
+                <h1>Web Development</h1>
+                <p>Creating simple webpages and engined them using front end <b>HTML CSS</b> and backend <b>PHP</b>. Got Certified from <b>Internshala</b>.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" class="button">know more</a>
+            </div>
+            <div class="skillss">
+                <img src="dev.png">
+                <h1>Web Design</h1>
+                <p>Design of Websites using <b>HTML CSS & BOOTSTRAP</b> and make those pages responsive for using through various platforms.</p>
+                <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="button">know more</a>
+            </div>
+            <div class="skillss">
+                <img src="c.png">
+                <h1>C-Prog</h1>
+                <p>Fundamentals of C and Python. Using them implementation of Data Structure and Algorithms.</p>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="button1">know more</a>
+            </div>        
+            <div class="skillss">
+                <img src="excel.png">
+                <h1>Excel Automation</h1>
+                <p>Creating Multi Sale DASHBOARDS using Advanced Microsoft Excel through which user can get the exact data. Got certified from <b>Internship Studio.</b></p>
+                <a href="https://www.google.com/search?q=excel&oq=excel&aqs=chrome..69i57j69i59l3j69i60l3.1360j0j4&sourceid=chrome&ie=UTF-8" target="_blank" class="button">know more</a>
+            </div>
+
+            <div class="skillss">
+                <img src="cisco.png" class="image">
+                <h1>Cisco Packet Tracing</h1>
+                 <p>Designing basic network of LAN or WAN based model of Network for a Office or Home by using <b>Cisco Packet Tracer</b>. Fundamentals of Networking. </p>
+                 <a href="https://en.wikipedia.org/wiki/Packet_Tracer" class="button" target="_blank" class="button">know more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="project">
+        
+        <div class="projects_heading">
+            <h2>Resume <i class="far fa-file-user"></i></h2>
+            <p><i class="fas fa-quote-left" id="quote_left"></i>You can download &darr; my Resume by clicking below to know more about my works. Thank u for visiting... <i class="fas fa-quote-right" id="quote_right"></i></p>
+        </div>
+        <div class="resume">
+            <a href="resume.pdf" target="_blank" download>DOWNLOAD &darr;</a>
+        </div>
+    
+    </section>
+
+    <section class="skills" id="social">
+        <div class="social_head">
+            <h2>Socials <i class="fas fa-hashtag"></i></h2>
+        </div>
+        <div class="projects_heading">
+
+            <p><i class="fas fa-quote-left" id="quote_left"></i>You can connect with me through this.<i class="fas fa-quote-right" id="quote_right"></i></p>
+        </div>
+
+        <div class="skills_contents" id="link_contents">
+            <div class="skillss" id="link">
+                
+                <a href="https://www.facebook.com/prajeet.mukherjee.7/" target="_blank" class="public"><img src="face.png" id="ch"></a>
+            </div>
+            <div class="skillss" id="link">
+                
+                <a href="https://www.linkedin.com/in/prajeet-mukherjee-5006741b3/" target="_blank"><img src="linkedin.png" id="ch"></a>
+            </div>
+            <div class="skillss" id="link">
+                
+                <a href="https://www.instagram.com/prajeetmukherjee/" target="_blank"><img src="insta.png" id="ch"></a>
+            </div>
+            <div class="skillss" id="link">
+                
+                <a href="https://twitter.com/PrajeetMukherj1" target="_blank"><img src="twitter.png" id="ch"></a>
+            </div>        
+            <div class="skillss" id="link">
+                
+                <a href="https://github.com/prajeet34" target="_blank"><img src="git.png" id="ch"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="footer_head">
+            <h2>Connect <i class="far fa-mobile-android"></i></h2>
+
+        </div>
+        <div class="footer_body">
+            <div class="details">
+                <h3>Details <i class="far fa-info-square"></i></h3>
+                <div class="footer_details">
+                    <div class="info">
+                        <div class="icon1">
+                            <i class="fal fa-map-marker-alt" id="model"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>2/1A Tarak Mitra Lane,<br>Kolkata-700026</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="icon1">
+                            <i class="far fa-phone-alt" id="model"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>9874876519</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="icon1">
+                            <i class="far fa-envelope" id="model"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Gmail</h3>
+                            <p>prajeetmukherjee615@gmail.com</p>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+            <div class="form1">
+                <form>
+                    <h3>Comment Down <i class="far fa-pencil"></i></h3>
+                    <input type="text" name="namecol" placeholder="Your Name" required>
+                    <textarea rows="10" placeholder="Your Comment" name="comment" required></textarea>
+                    <a><input type="submit" value="SEND" name="submit"></a>
+                    
+
+                </form>
+            </div>
+        </div>
+
+        <div class="col-xs-7">
+            <p class="copy">&copy; WebPage Design by Prajeet.</p>
+        </div>
+    </section>
+    
+
+</body>
+</html>
