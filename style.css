@@ -550,7 +550,7 @@ nav ul li a:hover
     }
     .skills_heading h1 
     {
-        font-size: 8em;    
+        font-size: 10em;    
     }
     .skills .skills_contents
     {
@@ -573,14 +573,14 @@ nav ul li a:hover
     {
     color: #fbff00;
     letter-spacing: 1.5px;
-    font-size: 38px;
+    font-size: 39px;
     }
 
     .skillss p
     {
     padding-top: 5px;
     letter-spacing: 0.2px;
-    font-size: 36px;
+    font-size: 40px;
     text-align: justify;
     }
     .skills .skills_contents .skillss:hover
@@ -596,20 +596,20 @@ nav ul li a:hover
     }
     .projects_heading h2
     {
-        font-size: 8em;
+        font-size: 9em;
     }
     .projects_heading p
     {
         margin-top: 5em;
-        font-size: 3em;
+        font-size: 4em;
     }
     .resume a
     {
-        font-size: 2.6em;
+        font-size: 3em;
     }
     .social_head h2
     {
-        font-size: 8em;
+        font-size: 8.5em;
         font-weight: bold;
     }
     .skills
@@ -633,22 +633,22 @@ nav ul li a:hover
     }
     .details h3
     {
-        font-size: 4em !important;
+        font-size: 4.4em !important;
     }
     .text h3
     {
-        font-size: 3.2em !important;
+        font-size: 3.6em !important;
     }
     .text p
     {
-        font-size: 3.1em !important;
+        font-size: 3.4em !important;
     }
     .form1{
         margin-top: 3.4em !important;
     }
     .form1 h3
     {
-        font-size: 3em !important;
+        font-size: 3.6em !important;
     }
     .form1 form input,
     .form1 form textarea
@@ -656,7 +656,7 @@ nav ul li a:hover
     margin-bottom: 22px;
     padding-left: 30px !important;
     padding-right: 30px !important;
-    font-size: 18px;
+    font-size: 25px;
     outline: none;
     border-radius: 16px;
     }
@@ -669,7 +669,7 @@ nav ul li a:hover
     .form1 form input::placeholder,
     .form1 form textarea::placeholder
     {
-    font-size: 23px;
+    font-size: 28px;
     }
     .form1 form input[type="submit"]
     {
@@ -680,11 +680,15 @@ nav ul li a:hover
     letter-spacing: 2px;
     border-radius: 25px;
     color: black;
-    font-size: 2em;
+    font-size: 2.2em;
     }
     .col-xs-7 p
     {
         font-size: 2em !important;
+    }
+    #model
+    {
+        font-size: 2.3em;
     }
 }
 .button
@@ -713,6 +717,10 @@ nav ul li a:hover
     text-transform: capitalize;
     margin-top: 100px;
 }
+#model
+    {
+        font-size: 2.3em;
+    }
 .footer
 {
     background:rgb(37, 37, 37);
