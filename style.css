@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 *
 {
-    font-family: 'Poppins', comic sans ms;
+    font-family: 'Stylish', comic sans ms;
     margin: 0;
     padding: 0;
     text-decoration: none !important;
@@ -20,7 +21,7 @@ html
 }
 .home h1
 {
-   margin-top: 2px;
+   margin-top: 0px;
    font-size: 3.1em;
 }
 .part1
@@ -28,7 +29,7 @@ html
   display: flex;
   align-items: center;
   padding-top: 19em;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(39, 38, 38);
   background-size: cover;
   align-items: center;
 }
@@ -114,17 +115,21 @@ section
     letter-spacing:1.3px;
     line-height: 1.8em;
 }
+.home h1
+{
+    font-size: 4em;
+}
 
 .part1 h1 span 
 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #08f7ff;
 } 
 
 .part1 h3
 {
     color: rgb(255, 255, 255);
-    font-size: 1.6em;
+    font-size: 2em;
 
 }
 nav
@@ -133,7 +138,7 @@ nav
     width: 100% !important;
     justify-content: space-around;
     padding: 1px 80px !important;
-    background: rgb(31, 31, 31) !important;
+    background: rgb(39, 39, 39) !important;
     opacity: 0.9;
     z-index: 1 !important;
 }
@@ -160,14 +165,14 @@ nav ul li a
     display: inline-block !important;
     text-decoration: none;
     margin: 10px 11px !important;
-    font-size: 16.5px !important;
+    font-size: 21px !important;
 }
 nav ul li a:hover
 {
-    transition: 0.15s ease;
+    transition: 0.2s ease;
     color: #ff13eb !important;
     cursor: pointer;
-    font-size: 16.5px !important;
+    font-size: 21px !important;
     transform: translateY(3px) !important;
 }
 #image
@@ -197,17 +202,18 @@ nav ul li a:hover
 }
 .about_heading h1
 {
-    font-size: 2.6em;
+    font-size: 4.9em;
     text-align: center;
     letter-spacing: 1.5px;
     color: #000;
+    font-family: 'Pacifico', cursive !important;
 }
 .content
 {
     justify-content: space-around;
-    letter-spacing: 1.1px;
+    letter-spacing: 0.8px;
     padding-top: 2em;
-    font-size: 1.5em;
+    font-size: 2em;
     background-color: rgba(245, 245, 245, 0.932);
     margin-top: 60px;
     align-items: center !important;
@@ -240,23 +246,23 @@ nav ul li a:hover
     transition: 0.3s ease;
     border-radius: 50px;
 }
-.skills .skills_contents .skillss:hover
-{
-    background-color: rgb(228, 255, 229);
-    color: rgb(0, 0, 0);
+ .skills .skills_contents .skillss:hover
+    {
+    background-color: rgb(255, 17, 108);
+    color: rgb(22, 22, 22);
     transition: 0.3s ease;
-}
+    }
 .skills
 {
-    background: rgb(24, 24, 24);
+    background: rgb(250, 250, 250);
     overflow: hidden;
 }
 
 .skillss h1
 {
-    color: #fc11f0;
+    color: #fffb00;
     letter-spacing: 1.5px;
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 
 .skillss p
@@ -265,7 +271,7 @@ nav ul li a:hover
     text-align: center;
     justify-content: space-around;
     letter-spacing: 0.2px;
-    font-size: 17.3px;
+    font-size: 20px;
 }
 #social
 {
@@ -291,7 +297,7 @@ nav ul li a:hover
 }
 .about
 {
-    background: rgb(235, 233, 233);
+    background: rgb(250, 250, 250);
 
 }
 
@@ -320,12 +326,13 @@ nav ul li a:hover
 }
 .skills_heading h1
 {
-    color: rgb(113, 255, 248);
+    color: rgb(29, 29, 29);
     justify-content: center;
-    font-size: 3.5em;
+    font-size: 5em;
     letter-spacing: 1.5px;
     align-items: center;
     text-align: center;
+    font-family: 'Pacifico', cursive !important;
 }
 .skills_contents
 {
@@ -333,14 +340,15 @@ nav ul li a:hover
 }
 .projects
 {
-    background: rgb(29, 29, 29);
+    background: rgb(43, 43, 43);
 }
 .projects_heading h2
 {
-    font-size: 2.7em;
-    letter-spacing: 1.5px;
+    font-size: 5em;
+    letter-spacing: 2.5px;
     text-align: center;
     color: rgb(113, 255, 248);
+    font-family: 'Pacifico', cursive;
 }
 .projects_heading p
 {
@@ -391,9 +399,10 @@ nav ul li a:hover
 .social_head h2
 {
     letter-spacing: 1.5px;
-    font-size: 2.7em;
+    font-size: 5em;
     text-align: center;
     color: rgb(34, 34, 34);
+    font-family: 'Pacifico', cursive;
 }
 .social
 {
@@ -416,7 +425,7 @@ nav ul li a:hover
     {
         height: 9em;
         z-index: 1000;
-        background:rgb(36, 36, 36) !important;
+        background:rgb(49, 49, 49) !important;
         opacity: 09;
     }
     
@@ -428,14 +437,14 @@ nav ul li a:hover
     .navbar-nav
     {
         top: 3em;
-        right: -120%;
+        right: -130%;
         display: block;
         flex-direction: column;
         text-align:center;
         padding: 100px 20px;
         width: 100% !important;
-        height: 130vh !important;
-        background:rgb(39, 39, 39) !important;
+        height: 160vh !important;
+        background:rgb(48, 48, 48) !important;
         transition: 0.8s;
         z-index: 999;
     }
@@ -446,9 +455,9 @@ nav ul li a:hover
     }
     nav ul li a
     {
-        font-size: 2.2em !important;
+        font-size: 3em !important;
         color:rgb(255, 255, 255) !important;
-        line-height: 2.5em;
+        line-height: 2.4em;
     }
     .navbar-toggler
     {
@@ -465,45 +474,62 @@ nav ul li a:hover
     }
     .navbar-toggler-icon 
     { 
-        height: 40px !important;
-        width: 40px !important;
+        height: 30px !important;
+        width: 30px !important;
         visibility: hidden !important;
     } 
     .navbar-toggler.ok
     {
          background-image: url(cross.png) !important;
-         width: 62px !important;
-         height: 62px;
+         width: 70px !important;
+         height: 70px;
          background-size: 60px;
     }
     .navbar-nav.ok
     {
-        right: -100px !important;
+        right: -150px !important;
     }
     
     .part1
     {
-        padding-top: 25em;
-        background-color: rgb(36, 36, 36);
+        padding-top: 20em;
+        background-color: rgb(49, 49, 49);
     }
     .home h1
     {
-        font-size: 3.8em;
+        font-size: 6.7em;
     }
+    .home h1 i
+    {
+        color:yellow;
+    }
+    .home h3
+    { 
+        padding-top: 40px;
+        font-size: 4.2em !important;
+    }
+    .home ul li
+    {
+        font-size: 2.5em;
+    }
+
     .about_heading h1
     {
-        font-size: 5.5em;
+        padding-top: 1.4em;
+        font-size: 7.9em;
         text-align: center;
 
     }
     .content
     {
+        padding-top: 1em;
         flex-direction: column !important;
         margin-top: 3em;
     }
     .content p
     {
-        font-size: 2em;
+        font-size: 2.2em;
+        line-height: 1.4em;
     
     }
     .about
@@ -519,11 +545,12 @@ nav ul li a:hover
     .about_image
     {
         align-items: center;
-        margin-left: 8.1em;
+        margin-left: 15em;
+        padding-top: 10em;
     }
     .skills_heading h1 
     {
-        font-size: 5.5em;    
+        font-size: 8em;    
     }
     .skills .skills_contents
     {
@@ -544,17 +571,23 @@ nav ul li a:hover
     }
     .skillss h1
     {
-    color: #fc11f0;
+    color: #fbff00;
     letter-spacing: 1.5px;
-    font-size: 35px;
+    font-size: 38px;
     }
 
     .skillss p
     {
     padding-top: 5px;
     letter-spacing: 0.2px;
-    font-size: 30px;
+    font-size: 36px;
     text-align: justify;
+    }
+    .skills .skills_contents .skillss:hover
+    {
+    background-color: rgb(255, 17, 108);
+    color: rgb(22, 22, 22);
+    transition: 0.3s ease;
     }
     .projects
     {
@@ -563,12 +596,12 @@ nav ul li a:hover
     }
     .projects_heading h2
     {
-        font-size: 5.2em;
+        font-size: 8em;
     }
     .projects_heading p
     {
         margin-top: 5em;
-        font-size: 2.5em;
+        font-size: 3em;
     }
     .resume a
     {
@@ -576,7 +609,7 @@ nav ul li a:hover
     }
     .social_head h2
     {
-        font-size: 5.3em;
+        font-size: 8em;
         font-weight: bold;
     }
     .skills
@@ -591,7 +624,7 @@ nav ul li a:hover
     }
     .footer_head h2
     {
-       font-size: 4.3em !important;
+       font-size: 8em !important;
        text-align: center;
     }
     .footer_body
@@ -600,22 +633,22 @@ nav ul li a:hover
     }
     .details h3
     {
-        font-size: 3.2em !important;
+        font-size: 4em !important;
     }
     .text h3
     {
-        font-size: 2.4em !important;
+        font-size: 3.2em !important;
     }
     .text p
     {
-        font-size: 2.1em !important;
+        font-size: 3.1em !important;
     }
     .form1{
         margin-top: 3.4em !important;
     }
     .form1 h3
     {
-        font-size: 2.7em !important;
+        font-size: 3em !important;
     }
     .form1 form input,
     .form1 form textarea
@@ -647,16 +680,16 @@ nav ul li a:hover
     letter-spacing: 2px;
     border-radius: 25px;
     color: black;
-    font-size: 1.9em;
+    font-size: 2em;
     }
     .col-xs-7 p
     {
-        font-size: 2.2em !important;
+        font-size: 2em !important;
     }
 }
 .button
 {
-    font-size: 17px;
+    font-size: 19px;
     list-style: none !important;
     text-decoration: none !important;
     color:rgb(0, 0, 0);
@@ -682,7 +715,7 @@ nav ul li a:hover
 }
 .footer
 {
-    background:rgb(27, 27, 27);
+    background:rgb(37, 37, 37);
 }
 .form1 form
 {
@@ -696,15 +729,15 @@ nav ul li a:hover
 .details h3
 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
     font-weight: 400;
-    color:  rgb(96, 252, 96);
+    color:  rgb(255, 64, 255);
 }
 .form1 form h3
 {
     color: rgb(98, 248, 253);
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 25px;
     font-weight: 500;
 }
@@ -717,7 +750,7 @@ nav ul li a:hover
     background: transparent;
     border: none;
     outline: none;
-    background: rgb(43, 43, 43);
+    background: rgb(54, 54, 54);
     color: rgb(255, 83, 241);
     border-radius: 16px;
 }
@@ -780,7 +813,7 @@ nav ul li a:hover
 {
     display: flex;
     margin-left: 18px;
-    font-size: 17px;
+    font-size: 22px;
     flex-direction: column;
     font-weight: 300;
     color: white;
@@ -788,16 +821,17 @@ nav ul li a:hover
 .footer_details .info .text h3
 {
     font-weight: 500;
-    color: #f44efa;
+    color: #f2ff3d;
     margin-bottom: 0;
     font-size: 23px;
 }
 .footer_head h2
 {
-    font-size: 2.1em;
-    letter-spacing: 2px;
+    font-size: 3.4em;
+    letter-spacing: 1px;
     color: white;
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 .col-xs-7 p
 {
@@ -806,4 +840,3 @@ nav ul li a:hover
     text-align: center;
     font-size: 1.8em;
 }
-
